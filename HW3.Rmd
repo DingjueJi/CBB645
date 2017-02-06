@@ -1,0 +1,24 @@
+---
+title: "HW3"
+author: "Dingjue Ji"
+date: "February 6, 2017"
+output: pdf_document
+---
+
+# Convergence of K-means
+
+As described in the algorithm, the cost function $J$ is:
+$$J(C_1, C_2,...,C_k, c_1, c_2,...,c_k) = \sum_{j=1}^{k}\sum_{i\in C_k}||x_i - c_k||$$
+
+
+```{r}
+summary(cars)
+```
+
+You can also embed plots, for example:
+
+```{r, echo=FALSE}
+plot(cars)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
